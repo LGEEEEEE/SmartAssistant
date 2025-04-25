@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: Myriad Pro;
+  src: url('fonts/myriad-pro/MYRIADPRO-REGULAR.OTF') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Myriad Pro;
+  src: url('fonts/myriad-pro/MYRIADPRO-BOLD.OTF') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+body{
+  margin-top: 20%;
+  background-image: url(https://ucb2.catolica.edu.br/portal/wp-content/uploads/2020/03/C%C3%A2mpus-Taguatinga-Universidade-Cat%C3%B3lica-de-Bras%C3%ADlia-UCB.jpg);
+  background-size: 100%;
+}
+:root {
+    --primary-color:white;
+    --secondary-color:rgb(0,10,99);
+    --secondary-light-color: rgb(0,85,255);
+    --transparent-color: rgba(0,0,0,0.5);
+
+}
+
+.fixed-top{
+    padding: 0,1px;
+    background-color: var(--secondary-light-color);
+    color: var(--primary-color);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.acessibilidade{
+  margin-right: 50px;
+}
+
+
+
+.contato{
+  margin-left: 50px;
+  display: flex;
+  margin-top: 0,5%;
+}
+.contato a{
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-left: 5px;
+
+}
+
+.contato a:hover{
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+.contato a i{
+  margin-left: 5px;
+}
+
+.contato p{
+  font-size: 5;
+}
+
+.navigator{
+  background-color: var(--secondary-color);
+}
+
+.navigator{
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links ul{
+  list-style-type: none;
+  display: flex;
+  margin-right: 50px;
+}
+
+.links ul a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.links ul a:hover{
+  color: var(--primary-color);
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
+.links ul a li{
+  color: var(--primary-color);
+  margin-left: 15px;
+}
+
+.container{
+  padding: 300px ;
+  background-color: var(--transparent-color);
+
+  
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  font-family: "Myriad Pro";
+  
+}
+
+
+
+.container h1{
+  font-family: "Myriad Pro";
+  color: var(--primary-color);
+  margin-top: -25%;
+  
+}
+
+
+.container{
+  color: var(--primary-color);
+  display: flex;
+  
+}
+
+.container img{
+  margin-left: 70%;
+  margin-top: -37%;
+  border-radius: 25%;
+}
+
+.container img:hover{
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
+.container p{
+  margin-top: -200px;
+  color: var(--primary-color);
+  font-size: 16;
+
+}
+
+.functions{
+  margin-top: -30%;
+  padding: 300px;
+  background-color: var(--secondary-light-color);
+  color: var(--primary-color);
+  font-family: "Myriad Pro";
+}
+
+.functions h2{
+  margin-top: -30%;
+  margin-left: -12%;
+}
+.functions h3{
+  margin-left: -10%;
+}
+
+.container1{
+  display: flex;
+}
+
+.row1{
+  width: 50%;
+}
+
+.row1 ol{
+  list-style-type: none;
+}
+
+.row1 ol li a img{
+  border-radius: 20px;
+}
+
+.row1 ol li a img:hover{
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+/**/
+.row2{
+  width: 50%;
+  margin-left: 25%;
+}
+
+.row2 ol{
+  list-style-type: none;
+}
+
+.row2 ol li a img{
+  border-radius: 20px;
+}
+
+.row2 ol li a img:hover{
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
+.container2{
+  margin-top: -15%;
+  padding: 300px;
+  background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/6222102-abstract-modern-tech-of-programming-code-screen-developer-gratis-foto.jpg);
+  background-color: var(--transparent-color);
+  background-blend-mode: darken;
+}
+
+.how{
+  margin-top: -20%;
+}
+
+.how h1, p{
+  
+  color: var(--primary-color);
+  font-family: "Myriad Pro";
+}
+
+.bottom{
+  margin-top: -20%;
+  padding: 150px;
+  background-color: var(--secondary-color);
+}
+
+.bottom-img{
+  margin-top: -10%;
+}
+
+
+
+
+.fix-bottom{
+  padding: 3px;
+  background-color: var(--secondary-light-color);
+  text-align: center;
+}
+
+.fix-bottom blockquote{
+  color: var(--primary-color)
+
+}
+
+.fix-bottom a{
+  color: var(--primary-color);
+}
+
+.luiz:hover{
+  transform: translateY(-10px);
+  color: var(--primary-color);
+}
+
+
+
+
+
